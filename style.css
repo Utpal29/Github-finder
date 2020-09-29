@@ -1,0 +1,58 @@
+* {
+    color: #142833;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #bdd4e7;
+    background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+}
+
+nav .navbar-brand {
+    margin: auto;
+    font-size: 4rem;
+    color: #204051;
+    font-weight: 600;
+}
+
+.card {
+    background-color: #bdd4e7;
+}
+
+.repoName {
+    color: #192a33cb;
+}
+
+.list-group-item {
+    background-color: #cee7fc8a;
+}
+
+.repoName:hover {
+    color: #192a33;
+}
+
+.form-control {
+    background-color: #e4e3e3;
+}
+
+.form-control:focus {
+    background-color: #e4e3e3;
+    border: 1px 0 #204051 solid;
+}
+
+.lead {
+    font-weight: 300;
+    color: #192a33;
+}
+
+.searchContainer,
+.search {
+    background: #3b6978;
+    border: none;
+}
+
+.searchContainer {
+    border-radius: 20px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    padding: 3rem 2rem;
+}
